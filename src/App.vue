@@ -1,17 +1,27 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HeaderComp />
+  <HeroComp />
+  <ContentComp />
+  <FooterComp />
+  <PreLoader />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import HeaderComp from "./components/partials/HeaderBar.vue";
+import HeroComp from "./components/partials/HeroComp.vue";
+import ContentComp from "./components/layouts/ContentComp.vue";
+import FooterComp from "./components/partials/FooterComp.vue";
+import PreLoader from "./components/partials/PreLoader.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    HeaderComp,
+    HeroComp,
+    ContentComp,
+    FooterComp,
+    PreLoader,
+  },
+};
 </script>
 
 <style>
