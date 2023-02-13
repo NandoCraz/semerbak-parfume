@@ -163,16 +163,18 @@ export default {
       let valFilter = event.target.value;
 
       if (valFilter == "semua") {
-        this.filterProducts = this.products;
+        this.filterProducts = [...this.products];
       } else {
-        this.filterProducts = this.products.filter(function (el) {
-          return el.type == valFilter;
-        });
+        this.filterProducts = [
+          ...this.products.filter(function (el) {
+            return el.type == valFilter;
+          }),
+        ];
       }
     },
   },
   mounted() {
-    this.filterProducts = this.products;
+    this.filterProducts = [...this.products];
   },
 };
 </script>
