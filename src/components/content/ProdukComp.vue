@@ -5,7 +5,7 @@
         <h2 class="col-lg-12">Parfume</h2>
       </div>
 
-      <select class="form-select w-25 mx-auto mb-4" @change="onChange($event)" id="filter">
+      <select class="form-select w-75 mx-auto mb-4" @change="onChange($event)" id="filter">
         <option :value="category.value" v-for="(category, i) in categories" :key="i">{{ category.name }}</option>
       </select>
 
