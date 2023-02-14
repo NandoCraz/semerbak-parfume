@@ -11,7 +11,7 @@
             <div class="credits"></div>
           </div>
           <div class="social-links text-center text-md-right pt-3 pt-md-0">
-            <a href="https://shopee.co.id/semerbak.parfume?categoryId=100630&entryPoint=ShopByPDP&itemId=9050927893"><i class="bi bi-shop-window"></i></a>
+            <a href="https://shopee.co.id/semerbak.parfume?categoryId=100630&entryPoint=ShopByPDP&itemId=9050927893" target="_blank"><i class="bi bi-shop-window"></i></a>
           </div>
         </div>
       </footer>

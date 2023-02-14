@@ -4,13 +4,13 @@
     <ProdukComp />
     <!-- End Produk Section -->
 
-    <!-- ======= About Section ======= -->
-    <AboutComp />
-    <!-- End About Section -->
-
     <!-- ======= Counts Section ======= -->
     <CountComp />
     <!-- End Counts Section -->
+
+    <!-- ======= About Section ======= -->
+    <AboutComp />
+    <!-- End About Section -->
 
     <!-- ======= Services Section ======= -->
     <KeunggulanComp />
