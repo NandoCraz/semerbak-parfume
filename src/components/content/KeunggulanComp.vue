@@ -20,7 +20,7 @@
               <i class="bi bi-gender-ambiguous"></i>
             </div>
             <h4 style="cursor: pointer">Untuk Semua Kalangan</h4>
-            <p>Parfum berkelas yang bisa dipakai untuk semua jenis kelamin</p>
+            <p>Parfum berkelas yang bisa dipakai untuk semua gender</p>
           </div>
         </div>
 
